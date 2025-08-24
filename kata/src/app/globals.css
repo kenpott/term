@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000;
+  --foreground: #171717;
+  --text-color: #ffffff;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to top right,
+    #282828,
+    rgba(24, 24, 27, 0.5)
+  );
+  position: relative;
+  background: var(--background);
+  color: var(--text-color);
+  font-family: 'Montserrat', sans-serif;
+}
